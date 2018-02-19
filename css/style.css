@@ -1,0 +1,30 @@
+body {
+  background-color: #909090;
+}
+
+h1 {
+   text-align: center;
+   color: white;
+   font-family: "Lucida Grande";
+   font-size: 70px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-container div {
+  font-family: "Lucida Grande";
+  font-size: 25px;
+  color: white;
+}
+
+#degrees {
+  color: #0066ff;
+}
+
+#degrees:hover {
+  color: #0000cc;
+}
